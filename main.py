@@ -94,10 +94,10 @@ async def summarize_url(item: URLItem):
     final_data = json.dumps(reddit_data)
 
     prompt = f"""
-    You are provided with a JSON dataset containing a discussion about pets. Based on the data, summarize the following points:
-    1. List doing the points users like, prefer, or need as features in an application focused on pets, focusing on problems that need to be solved, Please output None if None.
-    2. List doing the points users don't like or hate, including things they find frustrating or want to avoid in an application, Please output None if None.
-    3. List doing the potential features that could be useful for the application, inferred from the discussion which isn't listed above and is important. Please output None if None.
+    You are provided with a JSON dataset containing a discussion about a topic. Based on the data, summarize the following points:
+    1. List doing the points users like, prefer, or need , addressing the problems that need to be solved, Please output None if None.
+    2. List doing the points users don't like or hate, including things they find frustrating or want to avoid, Please output None if None.
+    3. List doing the potential features that could be useful, inferred from the discussion which isn't listed above and is important. Please output None if None.
 
     Discussion data:
     {final_data}
