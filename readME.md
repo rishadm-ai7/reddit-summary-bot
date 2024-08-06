@@ -44,7 +44,7 @@ Follow the steps below to run the application:
 
 ## Description
 
-This application allows users to input a Reddit URL and get a summarized view of the discussion from the URL. It uses OpenAI's GPT-4 model to generate the summary in a streaming manner.
+This application allows users to input a Reddit URL and get a summarized view of the discussion from the URL. It uses OpenAI's GPT-4-o mini model to generate the summary in a streaming manner.
 
 ### Example Usage
 
